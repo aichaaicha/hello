@@ -4,7 +4,5 @@ then
   echo "trop d arguments"
 
 fi
-if [[ -d $1 ]]
-then
-  echo "c est un dossier"
+exit 1
 
