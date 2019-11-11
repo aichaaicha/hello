@@ -5,5 +5,8 @@ then
 
 fi
 exit 1
+<<<<<<< HEAD
 else
+=======
+>>>>>>> myfuture
 
