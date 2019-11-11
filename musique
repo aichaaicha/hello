@@ -1,0 +1,10 @@
+ #!/bin/bash
+if [[ $# -ne 1 ]]
+then
+  echo "trop d arguments"
+  exit 1
+fi
+if [[ -d $1 ]]
+then
+  echo "c est un dossier"
+exit 1
